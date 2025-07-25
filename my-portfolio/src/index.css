@@ -1,4 +1,12 @@
+:root{
+  --white : #FFF;
+  --primary : #1F1C2C;
+  --gray : #928DAB;
+}
+html {
+  font-size: 62.5%;
+}
 body {
     font-family: "Anton SC", sans-serif;
-
+    background-image: url('/bg-image.png');
 }
