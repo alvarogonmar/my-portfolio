@@ -3,9 +3,11 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
+  AiFillStar,
   AiOutlineUser,
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
+import { CgFileDocument } from "react-icons/cg";
 
 const NavBar: React.FC = () => {
   return (
@@ -30,6 +32,13 @@ const NavBar: React.FC = () => {
             >
               <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
               Projects
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="/resume"
+              style={{ color: "var(--warning)" }}
+            >
+              <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

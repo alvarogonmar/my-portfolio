@@ -32,6 +32,14 @@ function App() {
             </header>
           }
         />
+        <Route
+          path="/resume"
+          element={
+            <header style={{ paddingTop: "80px" }}>
+              <h1 className={styles.title}>Resume</h1>
+            </header>
+          }
+        />
       </Routes>
     </Router>
   );
