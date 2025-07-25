@@ -10,14 +10,13 @@ import { CgFileDocument } from "react-icons/cg";
 
 const NavBar: React.FC = () => {
   return (
-    <Navbar expand="md" fixed="top">
+    <Navbar expand={true} fixed="top">
       <Container>
         <Navbar.Brand as={Link} to="/">
           <strong></strong>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="mx-auto">
             <Nav.Link as={Link} to="/" style={{ color: "var(--success)" }}>
               <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
             </Nav.Link>
