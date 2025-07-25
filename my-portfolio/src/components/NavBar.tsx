@@ -3,7 +3,6 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
-  AiFillStar,
   AiOutlineUser,
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
